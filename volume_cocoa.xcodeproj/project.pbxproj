@@ -13,6 +13,7 @@
 		0A19F24F1C23EDD500CA09E4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A19F24D1C23EDD500CA09E4 /* MainMenu.xib */; };
 		0A19F25A1C23EDD500CA09E4 /* volume_cocoaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A19F2591C23EDD500CA09E4 /* volume_cocoaTests.m */; };
 		0A19F2651C23EDD500CA09E4 /* volume_cocoaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A19F2641C23EDD500CA09E4 /* volume_cocoaUITests.m */; };
+		0A19F2741C23F0CF00CA09E4 /* slider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A19F2731C23F0CF00CA09E4 /* slider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		0A19F2601C23EDD500CA09E4 /* volume_cocoaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = volume_cocoaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A19F2641C23EDD500CA09E4 /* volume_cocoaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = volume_cocoaUITests.m; sourceTree = "<group>"; };
 		0A19F2661C23EDD600CA09E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A19F2721C23EDE900CA09E4 /* slider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = slider.h; sourceTree = "<group>"; };
+		0A19F2731C23F0CF00CA09E4 /* slider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = slider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,8 @@
 				0A19F24D1C23EDD500CA09E4 /* MainMenu.xib */,
 				0A19F2501C23EDD500CA09E4 /* Info.plist */,
 				0A19F2481C23EDD500CA09E4 /* Supporting Files */,
+				0A19F2721C23EDE900CA09E4 /* slider.h */,
+				0A19F2731C23F0CF00CA09E4 /* slider.m */,
 			);
 			path = volume_cocoa;
 			sourceTree = "<group>";
@@ -261,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A19F2741C23F0CF00CA09E4 /* slider.m in Sources */,
 				0A19F24A1C23EDD500CA09E4 /* main.m in Sources */,
 				0A19F2471C23EDD500CA09E4 /* AppDelegate.m in Sources */,
 			);
